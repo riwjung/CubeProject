@@ -1,0 +1,1 @@
+{"five_hour":null,"seven_day":null,"limits":[{"kind":"session","group":"session","percent":64,"severity":"warning","resets_at":"2026-10-16T11:29:59+00:00","scope":null,"is_active":true},{"kind":"weekly_all","group":"weekly","percent":33,"severity":"normal","resets_at":"2026-10-22T15:59:59+00:00","scope":null,"is_active":false}]}

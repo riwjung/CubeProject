@@ -1,0 +1,6 @@
+.venv/
+firmware/.pio/
+bin/
+obj/
+*.user
+.vs/
