@@ -7,7 +7,8 @@ static constexpr int8_t LCD_DC = 0;        // boot strap pin: only driven after 
 static constexpr int8_t LCD_RST = 2;       // boot strap pin: only driven after boot
 static constexpr int8_t LCD_BACKLIGHT = 5; // active LOW
 static constexpr int16_t LCD_SIZE = 240;
-// The cube shows the panel through a prism, so the image must be mirrored (Arduino_GFX rotation 4..7).
+// Rotation 4 (MADCTL MX) is what Times-Z uses for the HelloCubic-Lite. If text comes out mirrored
+// compared to the stock firmware, use 0; 1..3 rotate in 90 degree steps.
 static constexpr uint8_t LCD_ROTATION = 4;
 
 constexpr uint16_t rgb565(uint8_t r, uint8_t g, uint8_t b) {
